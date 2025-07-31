@@ -47,7 +47,7 @@ while True:
         break
     sentiment = predict_sentiment(user_input)
     print(f"Predicted Sentiment: {sentiment}")
-mport pickle
+import pickle
 
 # Saving tokenizer
 with open('tokenizer.pickle', 'wb') as handle:
